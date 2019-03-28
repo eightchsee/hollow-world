@@ -1,0 +1,65 @@
+/*  */
+body {
+  background: #fff;
+  margin: 5px 25px;
+}
+.wrapper {
+  display: grid;
+  margin: 25px auto auto 0;
+  width: 75%;
+  background-color: aliceblue; /* chocolate; */
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+* {box-sizing: border-box;} /* not sure that this does anything */
+.new-row {
+    grid-column-start: 1;
+  }
+.wrapper > div {
+  border: 2px solid #ffa94d;
+  border-radius: 25px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+div.box1,
+div.box2,
+div.box4 {
+  color: #fff;
+}
+div.box3 {
+  color: #000;
+}
+div.box1 {
+  background-color: #334D64;
+}
+div.box2 {
+  background-color: #4C7294;
+}
+div.box3 {
+  background-color: #EADAAD;
+}
+div.box4 {
+  background-color: #4C7294;
+}
+
+.error-message {
+  border: thin solid blue;
+  height: 5em;
+  font-size: 2em;
+  font-weight: bold;
+}
+.error-message {
+  /* font: italic normal 0.9em/1.1em; *//* <= cannot get this to work [?] */
+  font-size: 0.9em;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 1.1em;
+  margin-bottom: 0.34286rem;
+  margin-top: -1px;
+  padding: .22857rem .32857rem .22857rem;
+  background: #f04124;
+  color: white;
+}
+
