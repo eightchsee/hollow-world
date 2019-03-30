@@ -1,0 +1,9 @@
+2019-01-01=New Year&apos;s Day
+2019-01-21=MLK Holiday
+2019-05-27=Memorial Day
+2019-07-04=Independence Day
+2019-09-02=Labor Day
+2019-11-28=Thanksgiving
+2019-12-24=Christmas Eve
+2019-12-25=Christmas Day
+2019-12-31=New Year&apos;s Eve
