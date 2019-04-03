@@ -1,5 +1,6 @@
 body {
   font-family: sans-serif;
+  font-size: inherit;
 }
 #month-id {
   font-size: 22pt;

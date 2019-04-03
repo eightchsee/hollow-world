@@ -40,7 +40,7 @@
     <link href="css/php-cal.css" type="text/css" rel="stylesheet" />
     <link href="css/grid-samp.css" rel="stylesheet">
     <link href="css/cal-grid-samp.css" rel="stylesheet">
-    <script src="script/datestuff.js" type="text/javascript"></script>
+    <script src="js/datestuff.js" type="text/javascript"></script>
     <style type="text/css">
       div.day-label {
         background-color: #ffffc0;
@@ -52,7 +52,7 @@
       div[class~="weekend"] {
         background-color: #ffd8a8;
       }
-	  curr_time {
+	    curr_time {
         display: block;
         text-align: center;
         margin: 10px;
@@ -60,10 +60,12 @@
         font-size: small;
         line-height: 1pt;
         font-style: italic;
-	  }
+	    }
+      #month-id:before {content: '<?php echo date('F') . ' ' ?>';}
+      #month-id::after {content: '<?php echo $yr ?>';}
     </style>
   </head>
-  <body>
+  <body onload="setit(<?php echo $mo . ', ' . $yr ?>)">
 <?php
   $file = $yr . "/state-holidays.txt";
   $stateholidays = file_get_contents($file);

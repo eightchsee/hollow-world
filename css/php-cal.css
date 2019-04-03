@@ -1,0 +1,92 @@
+body {
+  background-color: rgb(255,255,255);
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 9pt;
+}
+div#page-head {
+  font-size: 20pt;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+}
+div#today_date {
+  font-size: 8pt;
+  text-align: center;
+  padding: 3.6pt;
+}
+table {
+  background-color: rgb(250,250,220); /*#ff6;*/
+  margin: auto;
+  border-collapse: collapse;
+}
+/*
+td,
+th {
+  font-weight: bold;
+  font-size: 9pt;
+  border: 1px solid rgb(255,120,0);
+}
+*/
+tr#month-heading {
+  background-color: #fff;
+}
+tr#month-heading > th[colspan] {
+  padding: 5px;
+  font-size: 16pt;
+  font-weight: normal;
+  text-align: center;
+  font-family: 'Lucida Console', Verdana, Helvetica, sans-serif;
+}
+tr.day-label {
+  background-color: #ffffc0;
+}
+tr.day-label > * {
+  font-size: 9pt;
+  border: 1px solid rgb(255,120,0);
+}
+tr.curr-month-days > td:first-child,
+td.weekend {
+  background-color: #DCDCDC;
+}
+tr.curr-month-days > td {
+  font-size: 9pt;
+  font-weight: bold;
+  width: 1.30in;
+  height: 1.00in;
+  padding: 0.05in;
+  border: 1px dashed rgb(128,128,128);
+  vertical-align: top;
+}
+tr.curr-month-days > td.pre-post {
+  font-weight: normal;
+  font-size: x-small;
+  /* font-style: italic; */
+  color: #f30;
+}
+a {
+  text-decoration: none;
+}
+a.prev_next,
+a.prev_next:visited,
+div#today_date > a,
+div#today_date > a:visited {
+  color: #00C;
+}
+a:hover,
+a.prev_next:hover,
+div#today_date > a:hover {
+  color: #090;
+}
+payday {
+  display: block;
+  padding-top: 28.8pt;
+  text-align: right;
+  color: rgb(0,0,188);
+  font-size: 12pt;
+}
+payday:after {
+  content: 'P';
+}
+td[class="pre-post"] payday {
+  color: #C0C0C0;
+}
