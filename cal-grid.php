@@ -38,7 +38,7 @@
     <meta content="7200" http-equiv="refresh">
     <title><?php echo $month_name . ' - ' . $year; ?></title>
     <link href="css/php-cal.css" type="text/css" rel="stylesheet" />
-  <link href="css/grid-samp.css" rel="stylesheet">
+    <link href="css/grid-samp.css" rel="stylesheet">
     <link href="css/cal-grid-samp.css" rel="stylesheet">
     <script src="script/datestuff.js" type="text/javascript"></script>
     <style type="text/css">
@@ -65,7 +65,7 @@
   </head>
   <body>
 <?php
-  $file = "../" . $yr . "/state-holidays.txt";
+  $file = $yr . "/state-holidays.txt";
   $stateholidays = file_get_contents($file);
 
 ?>
