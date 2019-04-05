@@ -73,8 +73,10 @@ function setit(m, y) {
     var d = dt.getDate();
     //  alert(m + "-" + d + "-" + y);
     elm = document.getElementById(d);
-    elm.style.color="#c00000"
-    elm.style.fontSize="17pt"
+    elm.style.color="#c00000";
+    elm.style.fontSize="18pt";
+    elm.style.fontWeight="bold";
+    elm.style.padding="0.45em";
   }
 }
 
