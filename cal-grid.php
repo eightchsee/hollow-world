@@ -50,7 +50,7 @@
         text-align: center;
       }
       div[class~="weekend"] {
-        background-color: #ffd8a8;
+        background-color: lightgrey; /* #ffd8a8; */
       }
 	    curr_time {
         display: block;
