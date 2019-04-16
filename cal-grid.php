@@ -69,7 +69,27 @@
 <?php
   $file = $yr . "/state-holidays.txt";
   $stateholidays = file_get_contents($file);
+  // echo '<p>' . $stateholidays . '</p>';
+  $holidays = explode(PHP_EOL, $stateholidays);
 
+  $dayz = array();
+  $idx = 0;
+  foreach ($holidays as $holiday) {
+    $holiday_mnth = explode('-', substr($holiday, 0, 10))[1];
+// echo $month . ' = '. $holiday_mnth .'? : ';
+    if ($holiday_mnth == $month) {
+      echo '  <!-- holiday_mnth: ' . $holiday_mnth . '; idx: '. $idx . '; holiday: ' . substr($holiday, strpos($holiday, "=")+1) . ' -->'; echo PHP_EOL;
+      $dayz[$idx] = explode('-', substr($holiday, 0, 10))[2];
+      $dayz_txt[$idx] = substr($holiday, strpos($holiday, "=")+1);
+      echo '  <!-- holiday_mnth: ' . $holiday_mnth . '; holiday_day: ' . $dayz[$idx] . '; idx: '. $idx . '; holiday: ' . substr($holiday, strpos($holiday, "=")+1) . ' -->'; echo PHP_EOL;
+      $idx++;
+    }
+  }
+  $payroll_days_file = $yr . "/paydays.txt";
+  $payroll_days = file_get_contents($payroll_days_file);
+//  echo 'print_r(explode(&quot;\r\n&quot;, $payroll_days));<br />';
+//  print_r(explode(PHP_EOL, $payroll_days));
+  $pay_days = explode(PHP_EOL, $payroll_days);
 ?>
     <div id="month-id"></div>
     <div class="wrapper">
@@ -103,9 +123,19 @@
 <?php 
   } // if ($day_count == 7)
   else {
-     // $pay_day = explode(',', $pay_days[$mo - 1]);
+      $pay_day = explode(',', $pay_days[$mo - 1]);
 ?>
-      <div id="<?php echo $day_num; ?>"<?php if ($day_count == 1) {echo ' class="weekend"';} ?>><?php echo $day_num; ?></div>
+      <div id="<?php echo $day_num; ?>"<?php if ($day_count == 1) {echo ' class="weekend"';} ?>><?php echo $day_num; ?>
+<?php
+  $arrlength = count($pay_day);
+  for($x = 0; $x < $arrlength; $x++) {
+    if ($pay_day[$x] == $day_num) {
+?>
+    <payday />
+<?php
+    }
+  }
+?></div>
 <?php
   }
   $day_num++; 
@@ -132,8 +162,9 @@
   $display_curr_time = (date('h', $curr_date)) . ':' . date('i', $curr_date) . ':' . date('s', $curr_date) . ':' . date('A', $curr_date) . ' ' . date('e', $curr_date);
 ?>
     <curr_time><?php echo $display_curr_date ?> @ <?php echo $display_curr_time ?></curr_time>
-    <p>
-      <a href="<?php echo $_SERVER['PHP_SELF'] ?>">home page</a> <?php echo ' [' . $_SERVER['QUERY_STRING'] . '] - [' . $_SERVER['SCRIPT_FILENAME'] . '] - [' . $_SERVER['SCRIPT_NAME'] . ']'; ?>
+    <p style="font-size: small;">
+      <a href="<?php echo $_SERVER['PHP_SELF'] ?>">home page</a> <?php echo ' [' . $_SERVER['QUERY_STRING'] . ']<br />
+      [' . $_SERVER['SCRIPT_FILENAME'] . '] - [' . $_SERVER['SCRIPT_NAME'] . ']'; ?>
     </p>
   </body>
 </html>
