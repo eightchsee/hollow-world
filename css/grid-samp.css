@@ -17,7 +17,7 @@ body {
     grid-column-start: 1;
   }
 .wrapper > div {
-  border: 2px solid #ffa94d;
+  border: 1px solid #ffa94d;
   border-radius: 25px;
   background-color: #ffd8a8;
   padding: 1em;
