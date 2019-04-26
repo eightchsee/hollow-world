@@ -163,8 +163,7 @@
 ?>
     <curr_time><?php echo $display_curr_date ?> @ <?php echo $display_curr_time ?></curr_time>
     <p style="font-size: small;">
-      <a href="<?php echo $_SERVER['PHP_SELF'] ?>">home page</a> <?php echo ' [' . $_SERVER['QUERY_STRING'] . ']<br />
-      [' . $_SERVER['SCRIPT_FILENAME'] . '] - [' . $_SERVER['SCRIPT_NAME'] . ']'; ?>
+      <a href="<?php echo $_SERVER['PHP_SELF'] ?>">home page</a> <?php echo '<!-- [' . $_SERVER['QUERY_STRING'] . '] [' . $_SERVER['SCRIPT_FILENAME'] . '] - [' . $_SERVER['SCRIPT_NAME'] . '] -->'; ?>
     </p>
   </body>
 </html>
