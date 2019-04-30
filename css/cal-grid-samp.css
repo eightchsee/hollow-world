@@ -23,6 +23,7 @@ body {
 .wrapper > div {
   height: 124px;
   background-color: #ffffff; /* #ffd8a8; */
+  font-weight: bold;
 }
 div.pre-post {
  /* background-color: lightgrey; */
@@ -34,6 +35,7 @@ div.gig {
 div.pre-post { /* > div.gig { */
   font-style: italic;
   font-size: smaller;
+  font-weight: inherit;
 }
 div[class~="tahday"] {
   font-weight: bold;
