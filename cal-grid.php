@@ -65,7 +65,7 @@
       #month-id::after {content: '<?php echo $yr ?>';}
     </style>
   </head>
-  <body onload="setit(<?php echo $mo . ', ' . $yr ?>)">
+  <!-- body onload="setit(<//?php echo $mo . ', ' . $yr ?>)" -->
 <?php
   $file = $yr . "/state-holidays.txt";
   $stateholidays = file_get_contents($file);
@@ -90,6 +90,19 @@
 //  echo 'print_r(explode(&quot;\r\n&quot;, $payroll_days));<br />';
 //  print_r(explode(PHP_EOL, $payroll_days));
   $pay_days = explode(PHP_EOL, $payroll_days);
+?>
+<?php
+  if(count($dayz) > 0) {
+?>
+  <body onload='st_holiday(<?php echo json_encode($dayz) . ', ' . $month . ', ' . $year . ', ' . json_encode($dayz_txt); ?>)'>
+
+<?php
+  }
+  else {
+?>
+  <body onload="setit(<?php echo $mo . ', ' . $yr ?>)">
+<?php
+  }
 ?>
     <div id="month-id"></div>
     <div class="wrapper">
