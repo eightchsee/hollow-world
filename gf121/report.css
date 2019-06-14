@@ -1,0 +1,40 @@
+@page {
+  margin-top: 3.0in;
+}
+div.currDateTime {
+  color: rgb(0,0,128);
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+}
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 0.15in;
+}
+td {
+  vertical-align: top;
+  border: thin solid;
+  min-height: 6ex;
+}
+td > div {
+  padding-left: 3em;
+}
+div.label {
+  font-size: 7pt;
+  padding: 0.5em 0 0.5em 0.5em;
+}
+div.propertyDescr {
+  white-space: pre-wrap;
+}
+.checkbox, .checkboxLabel {
+  vertical-align: baseline;
+}
+div.certify {
+  margin: 1.50in auto auto 1.50in;
+}
+div.seeAttachments {
+  margin-bottom: 0.15in;
+}
