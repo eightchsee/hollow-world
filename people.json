@@ -4,36 +4,42 @@
       "nameF": "Aaron",
       "nameL": "Bender",
       "phone": "261-6645",
+      "contractor": null,
       "loc": 6
     },
     {
       "nameF": "Aaron",
       "nameL": "Snook",
       "phone": null,
+      "contractor": true,
       "loc": 5
     },
     {
       "nameF": "ADAM",
       "nameL": "Koeninger",
       "phone": null,
+      "contractor": null,
       "loc": 5
     },
     {
       "nameF": "ADRIC",
       "nameL": "Holmes",
       "phone": null,
+      "contractor": null,
       "loc": 5
     },
     {
       "nameF": "AMANDA",
       "nameL": "Faessler",
       "phone": "261-0687",
+      "contractor": null,
       "loc": 5
     },
     {
       "nameF": "ANDREA",
       "nameL": "Olson",
       "phone": "264-6908",
+      "contractor": null,
       "loc": 5
     },
     {
@@ -44,171 +50,208 @@
       "loc": 6
     },
     {
+      "nameF": "Ben",
+      "nameL": "Stueve",
+      "phone": null,
+      "contractor": true,
+      "loc": "5",
+      "active": true
+    },
+    {
       "nameF": "BILL",
       "nameL": "Severson",
       "phone": "266-7241",
+      "contractor": null,
       "loc": 5
     },
     {
       "nameF": "BRIAN",
       "nameL": "Klockziem",
       "phone": "264-6906",
+      "contractor": null,
       "loc": 5
+    },
+    {
+      "nameF": "Charles",
+      "nameL": "Frayne",
+      "phone": null,
+      "contractor": true,
+      "loc": "5",
+      "active": true
     },
     {
       "nameF": "Charles",
       "nameL": "Winebrinner",
       "phone": "267-0697",
+      "contractor": null,
       "loc": 5
     },
     {
       "nameF": "Chris",
       "nameL": "Molnar",
       "phone": "261-0682",
+      "contractor": null,
       "loc": 6
     },
     {
       "nameF": "Colette",
       "nameL": "Lawlor",
       "phone": "261-6659",
+      "contractor": null,
       "loc": 6
     },
     {
       "nameF": "Dakota",
       "nameL": "Steffen",
       "phone": "264-6241",
+      "contractor": null,
       "loc": 6
     },
     {
       "nameF": "Dan",
       "nameL": "Brummel",
       "phone": "267-2809",
+      "contractor": null,
       "loc": 6
     },
     {
       "nameF": "Derrick",
       "nameL": "O’Donnell",
       "phone": "261-6647",
+      "contractor": null,
       "loc": 5
     },
     {
       "nameF": "Donna",
       "nameL": "Spear",
       "phone": "261-6657",
+      "contractor": null,
       "loc": 5
     },
     {
       "nameF": "Ellen",
       "nameL": "Peters",
       "phone": "264-6917",
+      "contractor": null,
       "loc": 5
     },
     {
       "nameF": "Eric",
       "nameL": "Stephens",
       "phone": "261-6654",
+      "contractor": null,
       "loc": 6
     },
     {
       "nameF": "Frank",
       "nameL": "Fischer",
       "phone": "261-8261",
+      "contractor": null,
       "loc": 5
     },
     {
       "nameF": "FRONT DESK",
       "nameL": null,
       "phone": "267-3728",
+      "contractor": null,
       "loc": 5
     },
     {
       "nameF": "Garrick",
       "nameL": "Veidel",
       "phone": "267-2047",
+      "contractor": null,
       "loc": 5
     },
     {
       "nameF": "Geoffrey",
       "nameL": "Bolinger",
       "phone": null,
-      "loc": 5
-    },
-    {
-      "nameF": "Grant",
-      "nameL": "Nicolet",
-      "phone": "266-7459",
+      "contractor": true,
       "loc": 5
     },
     {
       "nameF": "Gregory",
       "nameL": "Schlub",
       "phone": "261-6656",
+      "contractor": null,
       "loc": 6
     },
     {
       "nameF": "Henry",
       "nameL": "Parker",
       "phone": null,
+      "contractor": true,
       "loc": 5
     },
     {
       "nameF": "Isaac",
       "nameL": "Park",
       "phone": "266-9384",
+      "contractor": null,
       "loc": 5
     },
     {
       "nameF": "Ivan",
       "nameL": "Jager",
       "phone": null,
+      "contractor": null,
       "loc": 5
     },
     {
       "nameF": "Jacob",
       "nameL": "Ebenhoe",
       "phone": "266-9411",
+      "contractor": null,
       "loc": 5
     },
     {
       "nameF": "Jacque",
       "nameL": "Dicks",
       "phone": "267-0701",
+      "contractor": null,
       "loc": 5
     },
     {
       "nameF": "James",
       "nameL": "Colon",
       "phone": null,
+      "contractor": null,
       "loc": 6
     },
     {
       "nameF": "Jane",
       "nameL": "Perepel",
       "phone": "261-6658",
+      "contractor": null,
       "loc": 5
     },
     {
       "nameF": "Jason",
       "nameL": "Mack",
       "phone": null,
+      "contractor": true,
       "loc": 5
     },
     {
       "nameF": "Jason",
       "nameL": "Walker",
       "phone": null,
+      "contractor": true,
       "loc": 5
     },
     {
       "nameF": "Jean",
       "nameL": "Bousquet",
       "phone": "267-0678",
+      "contractor": null,
       "loc": 5
     },
     {
       "nameF": "Jeff",
       "nameL": "Lowden",
       "phone": "261-2358",
+      "contractor": null,
       "loc": 6
     },
     {
@@ -316,6 +359,22 @@
       "active": true
     },
     {
+      "nameF": "Lauren",
+      "nameL": "Stepka",
+      "phone": "266-7640",
+      "contractor": true,
+      "loc": 6,
+      "active": true
+    },
+    {
+      "nameF": "Mary Jo",
+      "nameL": "Kozol",
+      "phone": "267-0993",
+      "contractor": true,
+      "loc": 6,
+      "active": true
+    },
+    {
       "nameF": "Matt",
       "nameL": "Kohl",
       "phone": "267-0692",
@@ -353,14 +412,6 @@
       "phone": "267-0699",
       "contractor": null,
       "loc": "GL",
-      "active": true
-    },
-    {
-      "nameF": "Nick",
-      "nameL": "Hebebrand",
-      "phone": "267-0993",
-      "contractor": true,
-      "loc": 6,
       "active": true
     },
     {
