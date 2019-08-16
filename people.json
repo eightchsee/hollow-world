@@ -1,0 +1,565 @@
+{
+  "people": [
+    {
+      "nameF": "Aaron",
+      "nameL": "Bender",
+      "phone": "261-6645",
+      "loc": 6
+    },
+    {
+      "nameF": "Aaron",
+      "nameL": "Snook",
+      "phone": null,
+      "loc": 5
+    },
+    {
+      "nameF": "ADAM",
+      "nameL": "Koeninger",
+      "phone": null,
+      "loc": 5
+    },
+    {
+      "nameF": "ADRIC",
+      "nameL": "Holmes",
+      "phone": null,
+      "loc": 5
+    },
+    {
+      "nameF": "AMANDA",
+      "nameL": "Faessler",
+      "phone": "261-0687",
+      "loc": 5
+    },
+    {
+      "nameF": "ANDREA",
+      "nameL": "Olson",
+      "phone": "264-6908",
+      "loc": 5
+    },
+    {
+      "nameF": "ANDREA",
+      "nameL": "Olson",
+      "phone": "266-5751",
+      "contractor": null,
+      "loc": 6
+    },
+    {
+      "nameF": "BILL",
+      "nameL": "Severson",
+      "phone": "266-7241",
+      "loc": 5
+    },
+    {
+      "nameF": "BRIAN",
+      "nameL": "Klockziem",
+      "phone": "264-6906",
+      "loc": 5
+    },
+    {
+      "nameF": "Charles",
+      "nameL": "Winebrinner",
+      "phone": "267-0697",
+      "loc": 5
+    },
+    {
+      "nameF": "Chris",
+      "nameL": "Molnar",
+      "phone": "261-0682",
+      "loc": 6
+    },
+    {
+      "nameF": "Colette",
+      "nameL": "Lawlor",
+      "phone": "261-6659",
+      "loc": 6
+    },
+    {
+      "nameF": "Dakota",
+      "nameL": "Steffen",
+      "phone": "264-6241",
+      "loc": 6
+    },
+    {
+      "nameF": "Dan",
+      "nameL": "Brummel",
+      "phone": "267-2809",
+      "loc": 6
+    },
+    {
+      "nameF": "Derrick",
+      "nameL": "O’Donnell",
+      "phone": "261-6647",
+      "loc": 5
+    },
+    {
+      "nameF": "Donna",
+      "nameL": "Spear",
+      "phone": "261-6657",
+      "loc": 5
+    },
+    {
+      "nameF": "Ellen",
+      "nameL": "Peters",
+      "phone": "264-6917",
+      "loc": 5
+    },
+    {
+      "nameF": "Eric",
+      "nameL": "Stephens",
+      "phone": "261-6654",
+      "loc": 6
+    },
+    {
+      "nameF": "Frank",
+      "nameL": "Fischer",
+      "phone": "261-8261",
+      "loc": 5
+    },
+    {
+      "nameF": "FRONT DESK",
+      "nameL": null,
+      "phone": "267-3728",
+      "loc": 5
+    },
+    {
+      "nameF": "Garrick",
+      "nameL": "Veidel",
+      "phone": "267-2047",
+      "loc": 5
+    },
+    {
+      "nameF": "Geoffrey",
+      "nameL": "Bolinger",
+      "phone": null,
+      "loc": 5
+    },
+    {
+      "nameF": "Grant",
+      "nameL": "Nicolet",
+      "phone": "266-7459",
+      "loc": 5
+    },
+    {
+      "nameF": "Gregory",
+      "nameL": "Schlub",
+      "phone": "261-6656",
+      "loc": 6
+    },
+    {
+      "nameF": "Henry",
+      "nameL": "Parker",
+      "phone": null,
+      "loc": 5
+    },
+    {
+      "nameF": "Isaac",
+      "nameL": "Park",
+      "phone": "266-9384",
+      "loc": 5
+    },
+    {
+      "nameF": "Ivan",
+      "nameL": "Jager",
+      "phone": null,
+      "loc": 5
+    },
+    {
+      "nameF": "Jacob",
+      "nameL": "Ebenhoe",
+      "phone": "266-9411",
+      "loc": 5
+    },
+    {
+      "nameF": "Jacque",
+      "nameL": "Dicks",
+      "phone": "267-0701",
+      "loc": 5
+    },
+    {
+      "nameF": "James",
+      "nameL": "Colon",
+      "phone": null,
+      "loc": 6
+    },
+    {
+      "nameF": "Jane",
+      "nameL": "Perepel",
+      "phone": "261-6658",
+      "loc": 5
+    },
+    {
+      "nameF": "Jason",
+      "nameL": "Mack",
+      "phone": null,
+      "loc": 5
+    },
+    {
+      "nameF": "Jason",
+      "nameL": "Walker",
+      "phone": null,
+      "loc": 5
+    },
+    {
+      "nameF": "Jean",
+      "nameL": "Bousquet",
+      "phone": "267-0678",
+      "loc": 5
+    },
+    {
+      "nameF": "Jeff",
+      "nameL": "Lowden",
+      "phone": "261-2358",
+      "loc": 6
+    },
+    {
+      "nameF": "Jeff",
+      "nameL": "Standiford",
+      "phone": "267-0687",
+      "contractor": null,
+      "loc": 5,
+      "active": true
+    },
+    {
+      "nameF": "Jenn",
+      "nameL": "Seubert",
+      "phone": "267-0677",
+      "contractor": null,
+      "loc": 5,
+      "active": true
+    },
+    {
+      "nameF": "Jessica",
+      "nameL": "Sash",
+      "phone": "261-6649",
+      "contractor": null,
+      "loc": 6,
+      "active": true
+    },
+    {
+      "nameF": "Joanne",
+      "nameL": "Leighty",
+      "phone": "266-9409",
+      "contractor": null,
+      "loc": 6,
+      "active": true
+    },
+    {
+      "nameF": "Joe",
+      "nameL": "McCullough",
+      "phone": "264-6900",
+      "contractor": null,
+      "loc": 6,
+      "active": true
+    },
+    {
+      "nameF": "John",
+      "nameL": "Hutchins",
+      "phone": "261-8279",
+      "contractor": null,
+      "loc": 5,
+      "active": true
+    },
+    {
+      "nameF": "Judy",
+      "nameL": "Lewandowski",
+      "phone": "266-7722",
+      "contractor": null,
+      "loc": 5,
+      "active": true
+    },
+    {
+      "nameF": "Judy",
+      "nameL": "Seymour",
+      "phone": "267-0686",
+      "contractor": null,
+      "loc": 5,
+      "active": true
+    },
+    {
+      "nameF": "Justin",
+      "nameL": "Smith",
+      "phone": null,
+      "contractor": true,
+      "loc": 6,
+      "active": true
+    },
+    {
+      "nameF": "Ken",
+      "nameL": "McKelvey",
+      "phone": "267-0695",
+      "contractor": null,
+      "loc": 5,
+      "active": true
+    },
+    {
+      "nameF": "Kim",
+      "nameL": "Hicks",
+      "phone": "264-6903",
+      "contractor": null,
+      "loc": 6,
+      "active": true
+    },
+    {
+      "nameF": "Kyle",
+      "nameL": "Goryl",
+      "phone": null,
+      "contractor": true,
+      "loc": 5,
+      "active": true
+    },
+    {
+      "nameF": "Laura",
+      "nameL": "Sheppard",
+      "phone": "266-7640",
+      "contractor": null,
+      "loc": 6,
+      "active": true
+    },
+    {
+      "nameF": "Matt",
+      "nameL": "Kohl",
+      "phone": "267-0692",
+      "contractor": null,
+      "loc": 5,
+      "active": true
+    },
+    {
+      "nameF": "Michael",
+      "nameL": "Elgar",
+      "phone": "264-6255",
+      "contractor": null,
+      "loc": 5,
+      "active": true
+    },
+    {
+      "nameF": "Michelle",
+      "nameL": "Tsai",
+      "phone": "266-8519",
+      "contractor": null,
+      "loc": 5,
+      "active": true
+    },
+    {
+      "nameF": "Mike",
+      "nameL": "Moua",
+      "phone": "267-0693",
+      "contractor": null,
+      "loc": 6,
+      "active": true
+    },
+    {
+      "nameF": "Nathaniel",
+      "nameL": "Newby",
+      "phone": "267-0699",
+      "contractor": null,
+      "loc": "GL",
+      "active": true
+    },
+    {
+      "nameF": "Nick",
+      "nameL": "Hebebrand",
+      "phone": "267-0993",
+      "contractor": true,
+      "loc": 6,
+      "active": true
+    },
+    {
+      "nameF": "Pete",
+      "nameL": "Klukowski",
+      "phone": "264-6257",
+      "contractor": null,
+      "loc": 5,
+      "active": true
+    },
+    {
+      "nameF": "Peter",
+      "nameL": "Brant",
+      "phone": "(608) 620-5941/Google Voice",
+      "contractor": null,
+      "loc": 5,
+      "active": true
+    },
+    {
+      "nameF": "Peter",
+      "nameL": "Warner",
+      "phone": "266-9408",
+      "contractor": null,
+      "loc": 5,
+      "active": true
+    },
+    {
+      "nameF": "Philip",
+      "nameL": "Wales",
+      "phone": null,
+      "contractor": true,
+      "loc": 5,
+      "active": true
+    },
+    {
+      "nameF": "Reed",
+      "nameL": "Van Handel",
+      "phone": "264-6249",
+      "contractor": null,
+      "loc": 5,
+      "active": true
+    },
+    {
+      "nameF": "Renee",
+      "nameL": "Krajewski",
+      "phone": "261-8263",
+      "contractor": null,
+      "loc": 6,
+      "active": true
+    },
+    {
+      "nameF": "Ryan",
+      "nameL": "Wagner",
+      "phone": "264-6904",
+      "contractor": null,
+      "loc": 6,
+      "active": true
+    },
+    {
+      "nameF": "Sam",
+      "nameL": "Murakami",
+      "phone": "264-6258",
+      "contractor": true,
+      "loc": 6,
+      "active": true
+    },
+    {
+      "nameF": "Sam",
+      "nameL": "Weier",
+      "phone": "266-9407",
+      "contractor": true,
+      "loc": 6,
+      "active": true
+    },
+    {
+      "nameF": "Sarah",
+      "nameL": "Herwig",
+      "phone": "264-6248",
+      "contractor": null,
+      "loc": 6,
+      "active": true
+    },
+    {
+      "nameF": "Sarah",
+      "nameL": "Kwak",
+      "phone": "264-6253",
+      "contractor": true,
+      "loc": 6,
+      "active": true
+    },
+    {
+      "nameF": "Shannon",
+      "nameL": "Spranger",
+      "phone": "261-6641",
+      "contractor": null,
+      "loc": 5,
+      "active": true
+    },
+    {
+      "nameF": "Stacey",
+      "nameL": "Wright",
+      "phone": "264-6909",
+      "contractor": null,
+      "loc": 6,
+      "active": true
+    },
+    {
+      "nameF": "Tim",
+      "nameL": "Duggan",
+      "phone": "261-2359",
+      "contractor": null,
+      "loc": 5,
+      "active": true
+    },
+    {
+      "nameF": "Tim",
+      "nameL": "Hansen",
+      "phone": "261-2357",
+      "contractor": null,
+      "loc": 5,
+      "active": true
+    },
+    {
+      "nameF": "Tom",
+      "nameL": "Bouril",
+      "phone": null,
+      "contractor": null,
+      "loc": 5,
+      "active": true
+    },
+    {
+      "nameF": "Tom",
+      "nameL": "Heiber-Cobb",
+      "phone": null,
+      "contractor": null,
+      "loc": 5,
+      "active": true
+    },
+    {
+      "nameF": "Tom",
+      "nameL": "Kelly",
+      "phone": "261-6651",
+      "contractor": null,
+      "loc": 5,
+      "active": true
+    },
+    {
+      "nameF": "Tom",
+      "nameL": "Muhlhausen",
+      "phone": "264-6901",
+      "contractor": null,
+      "loc": 5,
+      "active": true
+    },
+    {
+      "nameF": "Tony",
+      "nameL": "Hokaj",
+      "phone": "267-0694",
+      "contractor": null,
+      "loc": 6,
+      "active": true
+    },
+    {
+      "nameF": "Travis",
+      "nameL": "Ward",
+      "phone": "267-1955",
+      "contractor": null,
+      "loc": 5,
+      "active": true
+    },
+    {
+      "nameF": "Troy",
+      "nameL": "Mellen",
+      "phone": "261-6646",
+      "contractor": null,
+      "loc": 6,
+      "active": true
+    },
+    {
+      "nameF": "Vicky",
+      "nameL": "Daniels",
+      "phone": "267-0983",
+      "contractor": null,
+      "loc": 5,
+      "active": true
+    },
+    {
+      "nameF": "Warren",
+      "nameL": "Sveum",
+      "phone": "267-3730",
+      "contractor": null,
+      "loc": 6,
+      "active": true
+    },
+    {
+      "nameF": "Wendy",
+      "nameL": "Gregg",
+      "phone": "264-6921",
+      "loc": 6
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JSON Sandbox</title>
+    <style type="text/css" media="screen">
+      body {font-family: sans-serif; font-size: .8rem; background: #ffffff;}
+      table {border-collapse: collapse;counter-reset: item;}
+      tr:nth-child(odd){background: #b8d1f3;}
+      th,td {border: thin solid;}
+      th,td {padding: 0 3px;}
+      li > *:first-child,
+      tr > td:first-child + td {font-weight: bold; text-transform: uppercase;}
+      .count {counter-increment: item; text-align: right;}
+      .count:before {content: counter(item)'.)'}
+      .loc {text-align: center;}
+    </style>
+  </head>
+  <body>
+    <table style="float: left; margin-right: 35px;">
+      <thead>
+        <tr><th></th><th>nameF</th><th>nameL</th><th>phone</th><th>loc</th></tr>
+      </thead>
+      <tbody id="people1"></tbody>
+    </table>
+    <table style="float: left;">
+      <thead>
+        <tr><th></th><th>nameF</th><th>nameL</th><th>phone</th><th>loc</th></tr>
+      </thead>
+      <tbody id="people2"></tbody>
+    </table>
+    <div style="clear: both;"></div>
+
+    <!-- ul id="people"></ul -->
+    <script type="text/javascript">
+      /*
+      var person = {
+        name: "Thomas",
+        age: 65,
+        address:{
+          street: "5 Main St.",
+          city: "Monona"
+        },
+        pets:["Riley", "Ginger"]
+      }
+
+      // person = JSON.stringify(person);
+      // person = JSON.parse(person);
+
+      var people = [
+        {
+          nameF: "Aaron",
+          nameL: "Bender",
+          phone: "261-6645",
+          loc: 6
+        },
+        {
+          nameF: "Aaron",
+          nameL: "Snook",
+          phone: null,
+          loc: 5
+        },
+        {
+          nameF: "Charles",
+          nameL: "Winebrinner",
+          phone: "267-0697",
+          loc: 5
+        }
+      ]
+
+      // console.log(people[1].loc);
+      var output = '';
+      for(var i = 0; i < people.length; i++) {
+        // console.log(people[i].nameL);
+        output += '<li><span>' + people[i].nameF + '</span> <span>' + people[i].nameL + '</span></li>';
+      }
+      document.getElementById('people').innerHTML = output;
+      */
+      function staffGroup(people, i) {
+        return `
+          <tr>
+            <td class="count"></td>
+            <td><span>${people[i].nameF}</span></td>
+            <td>${people[i].nameL ? people[i].nameL : ''}</td>
+            <td>${(people[i].phone && people[i].phone.length == 8) ? people[i].phone : ''}</td>
+            <td class="loc">${people[i].loc}</td>
+          </tr>
+          `
+      }
+
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+         if (this.readyState == 4 && this.status == 200) {
+//            // Typical action to be performed when the document is ready:
+  //          document.getElementById("demo").innerHTML = xhttp.responseText;
+            // console.log(xhttp.responseText);
+            var response = JSON.parse(xhttp.responseText);
+            var people = response.people;
+// console.log(people.slice(1, (people.length / 2)+1));
+            var peopleFirstHalf = people.slice(1, Math.round(people.length / 2)); //+1)
+// console.log(peopleFirstHalf);
+            var peopleSecondHalf = people.slice(Math.round(people.length / 2));
+// console.log(peopleSecondHalf);
+            var output = '';
+//            for(var i = 0; i < people.length; i++) {
+            for(var i = 0; i < peopleFirstHalf.length; i++) {
+              // console.log(people[i].nameL);
+              // output += '<li><span>' + people[i].nameF + '</span> <span>' + people[i].nameL + '</span></li>';
+              output += staffGroup(peopleFirstHalf, i);
+              // `
+              //   <tr>
+              //     <td class="count"></td>
+              //     <td><span>${people[i].nameF}</span></td>
+              //     <td>${people[i].nameL ? people[i].nameL : ''}</td>
+              //     <td>${(people[i].phone && people[i].phone.length == 8) ? people[i].phone : ''}</td>
+              //     <td class="loc">${people[i].loc}</td>
+              //   </tr>
+              //   `;
+            }
+            document.getElementById('people1').innerHTML = output;
+            output = '';
+            for(var i = 0; i < peopleSecondHalf.length; i++) {
+              output += staffGroup(peopleSecondHalf, i);
+            }
+            document.getElementById('people2').innerHTML = output;
+         }
+      };
+      xhttp.open("GET", "people.json", true);
+      xhttp.send();
+    </script>
+
+  </body>
+</html>
