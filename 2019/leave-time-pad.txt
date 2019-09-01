@@ -1,119 +1,412 @@
--- Thu 15 Mar 2018 11:32:42 AM CDT --
+-- Tue 27 Aug 2019 12:58:56 PM CDT --
 -------------------------------------
                             Balance as of
-Entitlement Name            03/03/2018      From        To          Accrual Period  
+Entitlement Name            08/17/2019      From        To          Accrual Period
 ---------------------------+---------------+-----------+-----------+--------------------------------
-Vacation Carry Over           143.00 Hours  01/01/2018  03/31/2018  Quarter to Date 
-                            -   8.00  leave request for 03/19/2018 [Mon.]
+Merit Days Balance              8.00 Hours  01/01/2019  12/31/2019  Year to Date
+                            -   8.00 Mon 9/16 Vacation time use of Merit Day hours
+
+Vacation Carry Over             4.25 Hours  07/01/2019  09/30/2019  Quarter to Date
+Vacation Balance              200.00 Hours  01/01/2010  12/31/2019  Year to Date
                             ----------
-                              135.00
-Vacation Balance              200.00 Hours  01/01/2018  12/31/2018  Year to Date
+                              204.25
+                            -  96.00 Wed 8/28 - 8/30, 9/03 - 9/15, 2019 Vacation time
                             ----------
-                              335.00 total vacation hours
+                              108.25
 
-Sick Balance                 1971.00 Hours  01/01/2018  12/31/2018  Year to Date
-Personal Holiday Balance       31.00 Hours  01/01/2018  12/31/2018  Year to Date
-Legal Holiday Balance          56.00 Hours  01/01/2018  12/31/2018  Year to Date
+Sick Balance                 2127.00 Hours  01/01/2018  12/31/2018  Year to Date
+                            -   3.00 Wed Aug 21, 2019 - Request for leave Dr. appt AM (1.50)
+                                                      - Request for leave Dr. appt PM (1.50)
+                            ----------
+                             2124.00
+
+Personal Holiday Balance       19.50 Hours  01/01/2019  12/31/2019  Year to Date
+
+Legal Holiday Balance          40.00 Hours  01/01/2019  12/31/2019  Year to Date
+                            -   8.00 Mon 9/02, 2019 State Holiday - Labor Day
+                            ----------
+                               32.00
 
 
--- Fri 16 Feb 2018 09:13:16 AM CST --
+-- Fri 23 Aug 2019 05:29:22 PM CDT --
 -------------------------------------
                             Balance as of
-Entitlement Name            02/03/2018      From        To          Accrual Period  
+Entitlement Name            08/17/2019      From        To          Accrual Period
 ---------------------------+---------------+-----------+-----------+--------------------------------
-Vacation Carry Over           148.00 Hours  01/01/2018  03/31/2018  Quarter to Date 
-                            -   5.00  leave request for 02/07/2018 [Wed.] (automobile pick up)
+Merit Days Balance              8.00 Hours  01/01/2019  12/31/2019  Year to Date
+
+Vacation Carry Over             4.25 Hours  07/01/2019  09/30/2019  Quarter to Date
+Vacation Balance              200.00 Hours  01/01/2010  12/31/2019  Year to Date
                             ----------
-                              143.00
-Vacation Balance              200.00 Hours  01/01/2018  12/31/2018  Year to Date
+                              204.25
 
-Sick Balance                 1973.00 Hours  01/01/2018  12/31/2018  Year to Date
-                            -   8.00  sick leave request for 02/14/2018 [Wed.]
-                            -   4.00  sick leave request for 02/15/2018 [Thu. (half-day)]
-                          ----------
-                             1961.00
+Sick Balance                 2127.00 Hours  01/01/2018  12/31/2018  Year to Date
+                            -   1.50 Wed Aug 21, 2019 - Request for leave Dr. appt AM
+                            -   1.50 Wed Aug 21, 2019 - Request for leave Dr. appt PM
+                            ----------
+                             2124.00
 
-Personal Holiday Balance       32.50 Hours  01/01/2018  12/31/2018  Year to Date
-                           -    1.50  arrive late leave request for 01/24/2018 [Wed.]
-                            --------
-                               31.00
+Personal Holiday Balance       19.50 Hours  01/01/2019  12/31/2019  Year to Date
 
-Legal Holiday Balance          56.00 Hours  01/01/2018  12/31/2018  Year to Date
+Legal Holiday Balance          40.00 Hours  01/01/2019  12/31/2019  Year to Date
 
 
--- Tue 13 Feb 2018 08:43:51 AM CST --
+-- Fri 16 Aug 2019 05:24:44 PM CDT --
 -------------------------------------
                             Balance as of
-Entitlement Name            02/03/2018      From        To          Accrual Period  
+Entitlement Name            08/06/2019      From        To          Accrual Period
 ---------------------------+---------------+-----------+-----------+--------------------------------
-Vacation Carry Over           148.00 Hours  01/01/2018  03/31/2018  Quarter to Date 
-Vacation Balance              200.00 Hours  01/01/2018  12/31/2018  Year to Date
-                            -   5.00  leave request for 02/07/2018 [Wed.] (automobile pick up)
+Merit Days Balance              8.00 Hours  01/01/2019  12/31/2019  Year to Date
+
+Vacation Carry Over             4.25 Hours  07/01/2019  09/30/2019  Quarter to Date
+Vacation Balance              200.00 Hours  01/01/2010  12/31/2019  Year to Date
                             ----------
-                              195.00
+                              204.25
 
-Sick Balance                 1973.00 Hours  01/01/2018  12/31/2018  Year to Date
-Personal Holiday Balance       32.50 Hours  01/01/2018  12/31/2018  Year to Date
-                           -    1.50  arrive late leave request for 01/24/2018 [Wed.]
-                            --------
-                               31.00
+Sick Balance                 2126.00 Hours  01/01/2018  12/31/2018  Year to Date
+                            -   4.00 Tue Aug 13, 2019 - Request for leave 1/2 day [sick (no sleep)]
+                            ----------
+                             2122.00
 
-Legal Holiday Balance          56.00 Hours  01/01/2018  12/31/2018  Year to Date
+Personal Holiday Balance       19.50 Hours  01/01/2019  12/31/2019  Year to Date
+
+Legal Holiday Balance          40.00 Hours  01/01/2019  12/31/2019  Year to Date
 
 
--- Tue 25 Jan 2018 08:17:19 AM CST --
+-- Wed 24 Jul 2019 12:09:17 PM CDT --
 -------------------------------------
                             Balance as of
-Entitlement Name            01/20/2018      From        To          Accrual Period  
+Entitlement Name            07/20/2019      From        To          Accrual Period
 ---------------------------+---------------+-----------+-----------+--------------------------------
-Vacation Carry Over           148.00 Hours  01/01/2018  03/31/2018  Quarter to Date 
-Vacation Balance              200.00 Hours  01/01/2018  12/31/2018  Year to Date
-Sick Balance                 1968.00 Hours  01/01/2018  12/31/2018  Year to Date
-Personal Holiday Balance       34.00 Hours  01/01/2018  12/31/2018  Year to Date
-                           -    1.50  arrive late leave request for 01/24/2018 [Wed.]
-                            --------
-                               32.50
+Vacation Carry Over             4.25 Hours  07/01/2019  09/30/2019  Quarter to Date
+Vacation Balance              200.00 Hours  01/01/2010  12/31/2019  Year to Date
+                            ----------
+                              204.25
 
-Legal Holiday Balance          56.00 Hours   01/01/2018  12/31/2018  Year to Date
+Sick Balance                 2121.00 Hours  01/01/2018  12/31/2018  Year to Date
+
+Personal Holiday Balance       19.50 Hours  01/01/2019  12/31/2019  Year to Date
+
+Legal Holiday Balance          40.00 Hours  01/01/2019  12/31/2019  Year to Date
 
 
--- Tue 23 Jan 2018 08:30:18 AM CST --
+-- Tue 23 Jul 2019 08:32:38 AM CDT --
 -------------------------------------
                             Balance as of
-Entitlement Name            01/06/2018      From        To          Accrual Period  
+Entitlement Name            07/06/2019      From        To          Accrual Period
 ---------------------------+---------------+-----------+-----------+--------------------------------
-Legal Holiday Balance         64.00 Hours   01/01/2018  12/31/2018  Year to Date
-                           -   8.00  MLK Day - State Holiday for 01/15/2018 [Mon.]
+Vacation Carry Over            26.00 Hours  07/01/2019  09/30/2019  Quarter to Date
+Vacation Balance              200.00 Hours  01/01/2010  12/31/2019  Year to Date
                             ----------
-                              56.00
-
-Personal Holiday Balance      34.00 Hours   01/01/2018  12/31/2018  Year to Date
-Sick Balance                1971.00 Hours   01/01/2018  12/31/2018  Year to Date
-                           -   8.00  sick leave request for 01/17/2018 [Wed.]
+                              226.00
+                            -  16.00 Mon, Tue Jul 8, 9; 2019 - Req for leave
+                            -   5.75 Fri, Jul 19, 2019 - Leave entered due to office closure resulting from power outage to building after substation fire at MG&E [entered per policy] <== and begrugingly
                             ----------
-                            1963.00
+                              204.25 -- had been mis-entered (by me) as: 210.00
 
-Vacation Balance              200.00 Hours  01/01/2018  12/31/2018  Year to Date
-Vacation Carry Over           148.00 Hours  01/01/2018  03/31/2018  Quarter to Date 
+Sick Balance                 2116.00 Hours  01/01/2018  12/31/2018  Year to Date
+
+Personal Holiday Balance       20.50 Hours  01/01/2019  12/31/2019  Year to Date
+                            -   1.00 Wed Jun 12 - Request for leave: arrive late [unable to enter because past due; need assistance to get entered]
+                            ----------
+                               19.50
+
+Legal Holiday Balance          40.00 Hours  01/01/2019  12/31/2019  Year to Date
 
 
--- Mon 22 Jan 2018 09:15:49 AM CST --
--- Mon 22 Jan 2018 04:42:59 PM CST --
+-- Fri 05 Jul 2019 09:16:10 AM CDT --
 -------------------------------------
-Absence                   Duration
-------------------------  --------------
-Legal Holiday Balance       64.00 Hours
-                         -   8.00  MLK Day - State Holiday for 01/15/2018 [Mon.]
-                          ----------
-                            56.00
+                            Balance as of
+Entitlement Name            06/22/2019      From        To          Accrual Period
+---------------------------+---------------+-----------+-----------+--------------------------------
+Vacation Carry Over            26.00 Hours  04/01/2019  06/30/2019  Quarter to Date
+Vacation Balance              200.00 Hours  01/01/2010  12/31/2019  Year to Date
+                            ----------
+                              226.00
+                            -  16.00 Mon, Tue Jul 8, 9; 2019 - Req for leave
+                            ----------
+                              210.00
 
-Personal Holiday Balance    34.00 Hours
-Sick Balance              1971.00 Hours
-                         -   8.00  sick leave request for 01/17/2018 [Wed.]
-                          ----------
-                          1963.00
+Sick Balance                 2111.00 Hours  01/01/2018  12/31/2018  Year to Date
 
-Vacation Balance           200.00 Hours
-Vacation Carry Over        148.00 Hours
+Personal Holiday Balance       20.50 Hours  01/01/2019  12/31/2019  Year to Date
+                            -   1.00 Wed Jun 12 - Request for leave: arrive late [unable to enter because past due; need assistance to get entered]
+                            ----------
+                               19.50
+
+Legal Holiday Balance          48.00 Hours  01/01/2019  12/31/2019  Year to Date
+                            -   8.00 Thu Jul 04 - State Holiday Independence Day
+                            ----------
+                               40.00
+
+
+-- Fri 24 May 2019 04:59:59 PM CDT --
+-------------------------------------
+                            Balance as of
+Entitlement Name            05/11/2019      From        To          Accrual Period
+---------------------------+---------------+-----------+-----------+--------------------------------
+Vacation Carry Over            58.00 Hours  04/01/2019  06/30/2019  Quarter to Date
+Vacation Balance              200.00 Hours  01/01/2010  12/31/2019  Year to Date
+                            ----------
+                              258.00
+                            -  32.00 Tues - Fri May 28 - May 31, 2019 - Req for leave
+                            ----------
+                              226.00
+
+Sick Balance                 2096.00 Hours  01/01/2018  12/31/2018  Year to Date
+
+Personal Holiday Balance       28.50 Hours  01/01/2019  12/31/2019  Year to Date
+                            -   8.00 Mon Jun 03 - Request for leave
+                            ----------
+                               20.50
+
+Legal Holiday Balance          56.00 Hours  01/01/2019  12/31/2019  Year to Date
+                            -   8.00 Mon May 27 - State Holiday Memorial Day
+                            ----------
+                               48.00
+
+
+-- Tue 07 May 2019 10:08:20 AM CDT --
+-------------------------------------
+                            Balance as of
+Entitlement Name            04/27/2019      From        To          Accrual Period
+---------------------------+---------------+-----------+-----------+--------------------------------
+Vacation Carry Over            58.00 Hours  04/01/2019  06/30/2019  Quarter to Date
+Vacation Balance              200.00 Hours  01/01/2010  12/31/2019  Year to Date
+                            ----------
+                              258.00
+
+Sick Balance                 2099.00 Hours  01/01/2018  12/31/2018  Year to Date
+                            -   8.00 Mon Apr 29, 2019 - Request for leave [sick]
+                            ----------
+                             2091.00
+
+Personal Holiday Balance       29.00 Hours  01/01/2019  12/31/2019  Year to Date
+                            -   0.50 Thu May 02, 2019 - Request for leave [in late, 30 min.]
+                            ----------
+                               28.50
+
+Legal Holiday Balance          56.00 Hours  01/01/2019  12/31/2019  Year to Date
+
+
+-- Wed 01 May 2019 12:01:07 PM CDT --
+-------------------------------------
+                            Balance as of
+Entitlement Name            04/27/2019      From        To          Accrual Period
+---------------------------+---------------+-----------+-----------+--------------------------------
+Vacation Carry Over            58.00 Hours  04/01/2019  06/30/2019  Quarter to Date
+Vacation Balance              200.00 Hours  01/01/2010  12/31/2019  Year to Date
+                            ----------
+                              258.00
+
+Sick Balance                 2099.00 Hours  01/01/2018  12/31/2018  Year to Date
+                            -   8.00 Mon Apr 29, 2019 - Request for leave [sick]
+                            ----------
+                             2091.00
+
+Personal Holiday Balance       29.00 Hours  01/01/2019  12/31/2019  Year to Date
+
+Legal Holiday Balance          56.00 Hours  01/01/2019  12/31/2019  Year to Date
+
+
+-- Thu 18 Apr 2019 10:20:17 AM CDT --
+-------------------------------------
+                            Balance as of
+Entitlement Name            04/13/2019      From        To          Accrual Period
+---------------------------+---------------+-----------+-----------+--------------------------------
+Vacation Carry Over            62.00 Hours  04/01/2019  06/30/2019  Quarter to Date
+Vacation Balance              200.00 Hours  01/01/2010  12/31/2019  Year to Date
+                            ----------
+                              262.00
+                            -   4.00 Fri Apr 26, 2019 - Request for leave [leave early at midday]
+                            ----------
+                              258.00
+
+Sick Balance                 2094.00 Hours  01/01/2018  12/31/2018  Year to Date
+
+Personal Holiday Balance       31.50 Hours  01/01/2019  12/31/2019  Year to Date
+                            -   2.50 Fri Apr 19, 2019 - Request for leave [leave early]
+                            ----------
+                               29.00
+
+Legal Holiday Balance          56.00 Hours  01/01/2019  12/31/2019  Year to Date
+
+
+-- Fri 29 Mar 2019 09:00:21 AM CDT --
+-------------------------------------
+                            Balance as of
+Entitlement Name            03/16/2019      From        To          Accrual Period
+---------------------------+---------------+-----------+-----------+--------------------------------
+Vacation Carry Over            62.00 Hours  01/01/2019  03/31/2019  Quarter to Date
+Vacation Balance              200.00 Hours  01/01/2010  12/31/2019  Year to Date
+                            ----------
+                              262.00
+
+Sick Balance                 2092.00 Hours  01/01/2018  12/31/2018  Year to Date
+                            -   8.00 Tue Mar 26, 2019 - Request for leave [funeral for family member](Gene)
+                            ----------
+                             2084.00
+
+Personal Holiday Balance       31.50 Hours  01/01/2019  12/31/2019  Year to Date
+
+Legal Holiday Balance          56.00 Hours  01/01/2019  12/31/2019  Year to Date
+
+
+-- Wed 06 Mar 2019 08:08:32 AM CST --
+-------------------------------------
+                            Balance as of
+Entitlement Name            03/02/2019      From        To          Accrual Period
+---------------------------+---------------+-----------+-----------+--------------------------------
+Vacation Carry Over            62.00 Hours  01/01/2019  03/31/2019  Quarter to Date
+Vacation Balance              200.00 Hours  01/01/2010  12/31/2019  Year to Date
+                            ----------
+                              262.00
+
+Sick Balance                 2087.00 Hours  01/01/2018  12/31/2018  Year to Date
+
+Personal Holiday Balance       35.50 Hours  01/01/2019  12/31/2019  Year to Date
+                            -   4.00 March 4th off for AM hours (worked 12:30 PM - 4:30 PM)
+                            ----------
+                               31.50
+                               
+Legal Holiday Balance          56.00 Hours  01/01/2019  12/31/2019  Year to Date
+
+
+-- Wed 13 Feb 2019 08:13:05 AM CST --
+-------------------------------------
+                            Balance as of
+Entitlement Name            02/02/2019      From        To          Accrual Period
+---------------------------+---------------+-----------+-----------+--------------------------------
+Vacation Carry Over            62.00 Hours  01/01/2019  03/31/2019  Quarter to Date
+Vacation Balance              200.00 Hours  01/01/2010  12/31/2019  Year to Date
+                            ----------
+                              262.00
+
+Sick Balance                 2077.00 Hours  01/01/2018  12/31/2018  Year to Date
+
+Personal Holiday Balance       36.00 Hours  01/01/2019  12/31/2019  Year to Date
+                            -   0.50 February 12th arrive late
+                            ----------
+                               35.50
+                               
+Legal Holiday Balance          56.00 Hours  01/01/2019  12/31/2019  Year to Date
+
+
+-- Thu 31 Jan 2019 05:04:36 PM CST --
+-------------------------------------
+                            Balance as of
+Entitlement Name            01/19/2019      From        To          Accrual Period
+---------------------------+---------------+-----------+-----------+--------------------------------
+Vacation Carry Over            73.00 Hours  01/01/2019  03/31/2019  Quarter to Date
+Vacation Balance              200.00 Hours  01/01/2010  12/31/2019  Year to Date
+                            ----------
+                              273.00
+                            -   8.00 January 30th time off for weather (extreme cold)
+                            -   3.00 January 31st time off for weather (extreme cold) part day
+                            ----------
+                              262.00
+
+Sick Balance                 2072.00 Hours  01/01/2018  12/31/2018  Year to Date
+
+Personal Holiday Balance       36.00 Hours  01/01/2019  12/31/2019  Year to Date
+                               
+Legal Holiday Balance          64.00 Hours  01/01/2019  12/31/2019  Year to Date
+                            -   8.00 January 21st State Holiday (MLK Day)
+                            ----------
+                               56.00
+
+
+-- Tue 22 Jan 2019 09:29:48 AM CST --
+-------------------------------------
+                            Balance as of
+Entitlement Name            01/05/2019      From        To          Accrual Period
+---------------------------+---------------+-----------+-----------+--------------------------------
+Vacation Carry Over            73.00 Hours  01/01/2019  03/31/2019  Quarter to Date
+Vacation Balance              200.00 Hours  01/01/2010  12/31/2019  Year to Date
+                            ----------
+                              273.00
+
+Sick Balance                 2079.00 Hours  01/01/2018  12/31/2018  Year to Date
+                            -   4.00 January 7th Sick time (1/2 day)
+                            -   8.00 January 8th Sick time (full day)
+                            ----------
+                             2067.00
+
+Personal Holiday Balance       36.00 Hours  01/01/2019  12/31/2019  Year to Date
+
+Legal Holiday Balance          64.00 Hours  01/01/2019  12/31/2019  Year to Date
+                            -   8.00 January 21st State Holiday (MLK Day)
+                            ----------
+                               56.00
+
+
+-- starting with this entry, view absence balances has been updated to 2019 --
+-- Wed 09 Jan 2019 08:45:06 AM CST --
+-------------------------------------
+                            Balance as of
+Entitlement Name            01/05/2019      From        To          Accrual Period
+---------------------------+---------------+-----------+-----------+--------------------------------
+Vacation Carry Over            73.00 Hours  01/01/2019  03/31/2019  Quarter to Date
+Vacation Balance              200.00 Hours  01/01/2010  12/31/2019  Year to Date
+                            ----------
+                              273.00
+
+Sick Balance                 2079.00 Hours  01/01/2018  12/31/2018  Year to Date
+
+Personal Holiday Balance       36.00 Hours  01/01/2019  12/31/2019  Year to Date
+
+Legal Holiday Balance          64.00 Hours  01/01/2019  12/31/2019  Year to Date
+                            -   8.00 January 1st State Holiday (New Year's Day)
+                            ----------
+                               56.00
+
+-- Mon 07 Jan 2019 10:35:25 AM CST --
+-------------------------------------
+                            Balance as of
+Entitlement Name            12/22/2018      From        To          Accrual Period
+---------------------------+---------------+-----------+-----------+--------------------------------
+Vacation Balance              105.00 Hours  01/01/2018  12/31/2018  Year to Date
+                            -  24.00 leave request for Dec 26-28 [W-F]
+                            ----------
+                               81.00
+
+Sick Balance                 2074.00 Hours  01/01/2018  12/31/2018  Year to Date
+
+Personal Holiday Balance        1.25 Hours  01/01/2018  12/31/2018  Year to Date
+
+Legal Holiday Balance          24.00 Hours  01/01/2018  12/31/2018  Year to Date
+                            -   8.00 January 1st State Holiday (New Year's Day)
+                            ----------
+                               16.00
+
+
+-- Fri 21 Dec 2018 08:21:03 AM CST --
+-------------------------------------
+                            Balance as of
+Entitlement Name            12/08/2018      From        To          Accrual Period
+---------------------------+---------------+-----------+-----------+--------------------------------
+Vacation Balance              105.00 Hours  01/01/2018  12/31/2018  Year to Date
+                            -  24.00 leave request for Dec 26-28 [W-F]
+                            ----------
+                               81.00
+
+Sick Balance                 2069.00 Hours  01/01/2018  12/31/2018  Year to Date
+
+Personal Holiday Balance        3.25 Hours  01/01/2018  12/31/2018  Year to Date
+                            -   2.00 appt @ SCU Thu. Dec. 13, 2018
+                            ----------
+                                1.25
+
+Legal Holiday Balance          24.00 Hours  01/01/2018  12/31/2018  Year to Date
+                            -   8.00 December 24th State Holiday (Christmas Eve)
+                            ----------
+                               16.00
+                            -   8.00 December 25th State Holiday (Christmas Day)
+                            ----------
+                                8.00
+                            -   8.00 December 31st State Holiday (New Year's Eve)
+                            ----------
+                                0.00
+
 
 
