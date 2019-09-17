@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Testing JavaScript</title>
+    <link href="pets.css" type="text/css" rel="stylesheet" />
+    <style media="screen">
+      ul {
+        font-family: monospace;
+        font-size: 0.8rem;
+        line-height: inherit;
+        list-style-type: none;
+        counter-reset: item;
+      }
+      span.count {
+        display: inline-block;
+        width: 35px;
+        padding-right: 3px;
+        background-color: lightcyan;
+        counter-increment: item;
+        text-align: right;
+      }
+      span.count:before {content: counter(item)'.)'}
+    </style>
+  </head>
+  <body>
+    <div class="none">
+      Testing JS
+    </div>
+    <ul id="test"></ul>
+  </body>
+  <script type="text/javascript" src="work-pad.js"></script>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>split people list</title>
+    <style media="all">
+      body {font-family: sans-serif;font-size: 0.9rem;}
+      #as-of {text-align: center; margin-bottom: 10px;}
+      #as-of::before {content: 'As of: ';}
+      div.container {width: 85%; margin: auto;}
+      table {border-collapse: collapse; float: left; margin-right: 15px; counter-reset: item;}
+      thead {font-size: 0.8rem;}
+      tr:nth-child(odd){background: #b8d1f3;}
+      th,td {border: thin solid; padding: 0 3px;}
+      tr > td:first-child + td {font-weight: bold; text-transform: uppercase;}
+      .count {counter-increment: item; text-align: right;}
+      .count:before {content: counter(item)'.)'}
+      .cnt {text-align: right;}
+      .cnt:after {content: '.)'}
+      .loc {text-align: center;}
+    </style>
+  </head>
+  <body>
+    <div id="as-of"></div>
+    <div class="container">
+      <table>
+        <thead>
+          <tr><th></th><th>First Name</th><th>Last Name</th><th>Phone</th><th>Loc</th></tr>
+        </thead>
+        <tbody id="people1"></tbody>
+      </table>
+      <table>
+        <thead>
+          <tr><th></th><th>First Name</th><th>Last Name</th><th>Phone</th><th>Loc</th></tr>
+        </thead>
+        <tbody id="people2"></tbody>
+      </table>
+      <table>
+        <thead>
+          <tr><th></th><th>First Name</th><th>Last Name</th><th>Phone</th><th>Loc</th></tr>
+        </thead>
+        <tbody id="people3"></tbody>
+      </table>
+      <table>
+        <thead>
+          <tr><th></th><th>First Name</th><th>Last Name</th><th>Phone</th><th>Loc</th></tr>
+        </thead>
+        <tbody id="people4"></tbody>
+      </table>
+      <div style="clear: both;"></div>
+
+    </div>
+  </body>
+  <script type="text/javascript">
+    function staffGroup(people, i, cnt) {
+      return `
+        <tr>
+          <!-- td class="count"></td -->
+          <td class="cnt">${cnt}</td>
+          <td><span>${people[i].nameF}</span></td>
+          <td>${people[i].nameL ? people[i].nameL : ''}</td>
+          <td>${(people[i].phone && people[i].phone.length == 8) ? people[i].phone : ''}</td>
+          <td class="loc">${people[i].loc}</td>
+        </tr>
+        `
+    }
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+        var response = JSON.parse(xhttp.responseText);
+        people = response.people;
+        console.log(people.length);
+        console.log(people.length / 4);
+        console.log(Math.ceil(people.length / 4));
+        console.log(response.asOf[0].date);
+        // let first_qtr = people.length / 4;
+        document.getElementById('as-of').innerHTML = response.asOf[0].date;
+
+        var cnt = 1;
+        var output = '';
+        let first_qtr = (
+          (people.length % 4 == 0) ?
+          people.length / 4 :
+          Math.ceil(people.length / 4)
+        );
+        console.log("first_qtr: " + first_qtr);
+        console.log(people.slice(0,first_qtr));
+        let firzt = people.slice(0,first_qtr);
+        for(var i = 0; i < firzt.length; i++) {
+          output += staffGroup(firzt, i, cnt);
+          cnt++;
+        }
+        document.getElementById('people1').innerHTML = output;
+
+        const batch1 = first_qtr;
+        let threeQtrs = people.length % 4 == 0 ?
+                        people.length - (people.length / 4) :
+                        people.length - (Math.ceil(people.length / 4));
+        let twoQtrs = threeQtrs % 3 == 0 ?
+                      threeQtrs - (threeQtrs / 3) :
+                      threeQtrs - (Math.ceil(threeQtrs / 3));
+        let batch2 = threeQtrs - twoQtrs;
+        let batch3 = twoQtrs % 2 == 0 ?
+                     twoQtrs / 2 :
+                     Math.ceil(twoQtrs / 2);
+        let batch4 = people.length - (batch1+batch2+batch3);
+        output = '';
+        let second_qtr = (
+        //  (people.slice(first_qtr).length % 3 == 0) ?
+        //  people.slice(first_qtr).length / 3 :
+        //  Math.round(people.slice(first_qtr).length / 3)
+          (people.length % 4 == 0) ?
+          people.length / 4 :
+          Math.round(people.length / 4)
+        );
+        console.log("second_qtr: " + second_qtr);
+        console.log(people.slice(first_qtr,(second_qtr * 2)));
+        // let zecond = people.slice(first_qtr, (second_qtr * 2));
+        let scndOffSet = (2*Math.round(people.length / 4))+1
+        // let zecond = people.slice(first_qtr,scndOffSet);
+        let zecond = people.slice(batch1,(batch1+batch2));
+        for(var i = 0; i < zecond.length; i++) {
+          output += staffGroup(zecond, i, cnt);
+          cnt++;
+        }
+        document.getElementById('people2').innerHTML = output;
+
+        let second_half = people.length - (first_qtr+second_qtr);
+        let third_qtr = (
+          (second_half % 2 == 0) ? second_half / 2 : Math.round(second_half / 2)
+        );
+        console.log( "second_half size: " + second_half );
+        console.log( "third_qtr: " + third_qtr );
+        console.log(people.slice(first_qtr+second_qtr,first_qtr+(first_qtr+second_qtr)));
+        console.log(people.slice(first_qtr+(first_qtr+second_qtr)));
+
+        // console.log("people.slice(first_qtr).length / 3: " + people.slice(first_qtr).length / 3);
+        // console.log("first_qtr:\n" + people.slice(0,first_qtr).toString());
+        // console.log(people.slice(first_qtr));
+
+        output = '';
+        let thrdOffSet = (3*Math.round(people.length / 4)+1);
+        // let thoid = people.slice(first_qtr+second_qtr,first_qtr+(first_qtr+second_qtr));
+        // let thoid = people.slice(scndOffSet,thrdOffSet);
+        let thoid = people.slice((batch1+batch2),(people.length - batch4));
+        for(var i = 0; i < thoid.length; i++) {
+          output += staffGroup(thoid, i, cnt);
+          cnt++;
+        }
+        document.getElementById('people3').innerHTML = output;
+
+        output = '';
+        // let foith = people.slice(first_qtr+(first_qtr+second_qtr));
+        // let foith = people.slice(thrdOffSet);
+        let foith = people.slice((people.length - batch4));
+        for(var i = 0; i < foith.length; i++) {
+          output += staffGroup(foith, i, cnt);
+          cnt++;
+        }
+        document.getElementById('people4').innerHTML = output;
+
+      }
+    };
+
+    xhttp.open("GET", "people.json", true);
+    xhttp.send();
+  </script>
+</html>
