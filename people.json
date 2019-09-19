@@ -192,13 +192,6 @@
       "loc": 5
     },
     {
-      "nameF": "Ivan",
-      "nameL": "Jager",
-      "phone": null,
-      "contractor": null,
-      "loc": 5
-    },
-    {
       "nameF": "Jacob",
       "nameL": "Ebenhoe",
       "phone": "266-9411",
@@ -229,13 +222,6 @@
     {
       "nameF": "Jason",
       "nameL": "Mack",
-      "phone": null,
-      "contractor": true,
-      "loc": 5
-    },
-    {
-      "nameF": "Jason",
-      "nameL": "Walker",
       "phone": null,
       "contractor": true,
       "loc": 5
@@ -413,6 +399,13 @@
       "contractor": null,
       "loc": "GL",
       "active": true
+    },
+    {
+      "nameF": "Paul",
+      "nameL": "Bueno",
+      "phone": null,
+      "contractor": null,
+      "loc": 6
     },
     {
       "nameF": "Pete",
@@ -614,6 +607,6 @@
     }
   ],
   "asOf": [
-    {"date": "08/15/19"}
+    {"date": "09/11/19"}
   ]
 }
