@@ -15,35 +15,35 @@
       "loc": 5
     },
     {
-      "nameF": "ADAM",
+      "nameF": "Adam",
       "nameL": "Koeninger",
       "phone": null,
       "contractor": null,
       "loc": 5
     },
     {
-      "nameF": "ADRIC",
+      "nameF": "Adric",
       "nameL": "Holmes",
       "phone": null,
       "contractor": null,
       "loc": 5
     },
     {
-      "nameF": "AMANDA",
+      "nameF": "Amanda",
       "nameL": "Faessler",
       "phone": "261-0687",
       "contractor": null,
       "loc": 5
     },
     {
-      "nameF": "ANDREA",
+      "nameF": "Andrea",
       "nameL": "Olson",
       "phone": "264-6908",
       "contractor": null,
       "loc": 5
     },
     {
-      "nameF": "ANDREA",
+      "nameF": "Andrea",
       "nameL": "Olson",
       "phone": "266-5751",
       "contractor": null,
@@ -58,14 +58,14 @@
       "active": true
     },
     {
-      "nameF": "BILL",
+      "nameF": "Bill",
       "nameL": "Severson",
       "phone": "266-7241",
       "contractor": null,
       "loc": 5
     },
     {
-      "nameF": "BRIAN",
+      "nameF": "Brian",
       "nameL": "Klockziem",
       "phone": "264-6906",
       "contractor": null,
@@ -150,7 +150,7 @@
       "loc": 5
     },
     {
-      "nameF": "FRONT DESK",
+      "nameF": "Front Desk",
       "nameL": null,
       "phone": "267-3728",
       "contractor": null,
@@ -612,5 +612,8 @@
       "phone": "264-6921",
       "loc": 6
     }
+  ],
+  "asOf": [
+    {"date": "08/15/19"}
   ]
 }
