@@ -94,7 +94,7 @@
   //          document.getElementById("demo").innerHTML = xhttp.responseText;
             // console.log(xhttp.responseText);
             var response = JSON.parse(xhttp.responseText);
-            var people = response.people;
+            var people = response.people.filter(c => c.active == true);
 // console.log(people.slice(1, (people.length / 2)+1));
             var left_offset = ( (people.length % 2 == 0) ? people.length / 2 : Math.round(people.length / 2) );
             var peopleFirstHalf = people.slice(0, left_offset); //+1)

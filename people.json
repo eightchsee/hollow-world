@@ -442,7 +442,7 @@
     {
       "nameF": "Paul",
       "nameL": "Bueno",
-      "phone": 264-8261,
+      "phone": "264-8261",
       "contractor": null,
       "loc": 6,
       "active": true
