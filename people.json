@@ -61,7 +61,7 @@
       "nameL": "Stueve",
       "phone": null,
       "contractor": true,
-      "loc": "5",
+      "loc": 5,
       "active": true
     },
     {
@@ -93,7 +93,8 @@
       "nameL": "Winebrinner",
       "phone": "267-0697",
       "contractor": null,
-      "loc": 5
+      "loc": 5,
+      "active": true
     },
     {
       "nameF": "Chris",
@@ -214,6 +215,14 @@
       "contractor": null,
       "loc": 5,
       "active": true
+    },
+    {
+      "nameF": "Ivan",
+      "nameL": "Jager",
+      "phone": null,
+      "contractor": null,
+      "loc": 5,
+      "active": false
     },
     {
       "nameF": "Jacob",
@@ -659,7 +668,9 @@
       "nameF": "Wendy",
       "nameL": "Gregg",
       "phone": "264-6921",
-      "loc": 6
+      "contractor": null,
+      "loc": 6,
+      "active": true
     }
   ],
   "asOf": [
