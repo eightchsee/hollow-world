@@ -449,6 +449,22 @@
       "active": true
     },
     {
+      "nameF": "Nick",
+      "nameL": "Blais",
+      "phone": "264-6900",
+      "contractor": null,
+      "loc": 6,
+      "active": true
+    },
+    {
+      "nameF": "Oren",
+      "nameL": "Maximov",
+      "phone": null,
+      "contractor": true,
+      "loc": 5,
+      "active": true
+    },
+    {
       "nameF": "Paul",
       "nameL": "Bueno",
       "phone": "264-8261",
@@ -674,6 +690,6 @@
     }
   ],
   "asOf": [
-    {"date": "10/29/19"}
+    {"date": "11/11/19"}
   ]
 }
