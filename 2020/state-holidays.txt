@@ -1,0 +1,9 @@
+2020-01-01=New Year&apos;s Day
+2020-01-20=MLK Holiday
+2020-05-25=Memorial Day
+2020-07-04=Independence Day
+2020-09-07=Labor Day
+2020-11-26=Thanksgiving
+2020-12-24=Christmas Eve
+2020-12-25=Christmas Day
+2020-12-31=New Year&apos;s Eve
