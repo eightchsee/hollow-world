@@ -17,6 +17,14 @@
       "active": true
     },
     {
+      "nameF": "Addison",
+      "nameL": "Fox",
+      "phone": null,
+      "contractor": true,
+      "loc": 5,
+      "active": true
+    },
+    {
       "nameF": "Adam",
       "nameL": "Koeninger",
       "phone": null,
@@ -145,6 +153,14 @@
       "active": true
     },
     {
+      "nameF": "Donovan",
+      "nameL": "Stevenson",
+      "phone": null,
+      "contractor": true,
+      "loc": 5,
+      "active": true
+    },
+    {
       "nameF": "Ellen",
       "nameL": "Peters",
       "phone": "264-6917",
@@ -167,6 +183,14 @@
       "contractor": null,
       "loc": 5,
       "active": false
+    },
+    {
+      "nameF": "Fay",
+      "nameL": "Simonini",
+      "phone": "267-0693",
+      "contractor": null,
+      "loc": 6,
+      "active": true
     },
     {
       "nameF": "Front Desk",
@@ -243,7 +267,7 @@
     {
       "nameF": "James",
       "nameL": "Colon",
-      "phone": null,
+      "phone": "265-6907",
       "contractor": null,
       "loc": 6,
       "active": true
@@ -253,6 +277,14 @@
       "nameL": "Perepel",
       "phone": "261-6658",
       "contractor": null,
+      "loc": 5,
+      "active": true
+    },
+    {
+      "nameF": "Jared",
+      "nameL": "Micks",
+      "phone": null,
+      "contractor": true,
       "loc": 5,
       "active": true
     },
@@ -382,7 +414,7 @@
       "phone": null,
       "contractor": true,
       "loc": 5,
-      "active": true
+      "active": false
     },
     {
       "nameF": "Laura",
@@ -395,7 +427,7 @@
     {
       "nameF": "Lauren",
       "nameL": "Stepka",
-      "phone": "266-7640",
+      "phone": "267-0993",
       "contractor": true,
       "loc": 6,
       "active": true
@@ -403,7 +435,7 @@
     {
       "nameF": "Mary Jo",
       "nameL": "Kozol",
-      "phone": "267-0993",
+      "phone": "266-7459",
       "contractor": true,
       "loc": 6,
       "active": true
@@ -438,7 +470,7 @@
       "phone": "267-0693",
       "contractor": null,
       "loc": 6,
-      "active": true
+      "active": false
     },
     {
       "nameF": "Nathaniel",
@@ -467,7 +499,7 @@
     {
       "nameF": "Paul",
       "nameL": "Bueno",
-      "phone": "264-8261",
+      "phone": "261-8261",
       "contractor": null,
       "loc": 6,
       "active": true
@@ -602,6 +634,14 @@
     },
     {
       "nameF": "Tim",
+      "nameL": "Finley",
+      "phone": null,
+      "contractor": true,
+      "loc": 5,
+      "active": true
+    },
+    {
+      "nameF": "Tim",
       "nameL": "Hansen",
       "phone": "261-2357",
       "contractor": null,
@@ -690,6 +730,6 @@
     }
   ],
   "asOf": [
-    {"date": "11/11/19"}
+    {"date": "1/6/20"}
   ]
 }
