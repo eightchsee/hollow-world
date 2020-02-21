@@ -19,6 +19,8 @@
       .cnt:after {content: '.)'}
       .loc {text-align: center;}
     </style>
+    <!-- prev update: Wed Sep 18 16:16:30 CDT 2019 -->
+    <!-- update: Mon Feb  3 10:25:54 CST 2020 - factor out the ones no longer employed at CCAP; add timestamp (from .json) to "As of:" line. -->
   </head>
   <body>
     <div id="as-of"></div>
@@ -68,13 +70,13 @@
     xhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
         var response = JSON.parse(xhttp.responseText);
-        people = response.people;
+        people = response.people.filter(c => c.active == true);
         console.log(people.length);
         console.log(people.length / 4);
         console.log(Math.ceil(people.length / 4));
         console.log(response.asOf[0].date);
         // let first_qtr = people.length / 4;
-        document.getElementById('as-of').innerHTML = response.asOf[0].date;
+        document.getElementById('as-of').innerHTML = response.asOf[0].date + " - " + response.asOf[0].time;
 
         var cnt = 1;
         var output = '';
